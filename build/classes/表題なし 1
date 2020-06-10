@@ -1,0 +1,13 @@
+create database board;
+
+use board;
+​
+CREATE TABLE dao(
+ name VARCHAR(128),
+ mail VARCHAR(128),
+ comment VARCHAR(128),
+ time VARCHAR(128),
+ time2 VARCHAR(128),
+ primary key(name)
+);
+
